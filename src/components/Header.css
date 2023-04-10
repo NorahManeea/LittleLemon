@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  background-image: url('../assets/Restaurant.svg');
+  padding: 0 15%;
+  height: 453px;
+}
+
+.left-side,
+.right-side {
+  width: 50%;
+}
+
+.left-side {
+  color: white;
+}
+
+header h1 {
+  font-weight: normal;
+  margin-top: 2rem;
+  color: #f4ce14;
+  line-height: 60px;
+}
+
+header h2 {
+  color: #EDEFEE;
+  font-size: 40pt;
+  font-weight: normal;
+}
+
+header p {
+  color: #EDEFEE;
+  font-size: 18pt;
+  margin: 2rem 0;
+  max-width: 400px;
+}
+
+header img {
+ /* transform: translateY(10%); */
+  float: right;
+  /*border-radius: 1.5rem;*/
+  width: 400px;
+  aspect-ratio: 4 / 4;
+  object-fit: cover;
+  z-index: 1000px;
+}
+
+
+
+button a {
+  font-weight: bold;
+  border-radius: 16px;
+}
