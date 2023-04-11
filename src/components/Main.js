@@ -3,6 +3,8 @@ import Card from "./Card";
 import greekSalad from "../assets/Salad.jpg";
 import bruschetta from "../assets/Bruchetta.svg";
 import LemonDessert from "../assets/LemonDessert.jpg";
+import about from '../assets/about.svg';
+
 
 import './Main.css';
 
@@ -53,8 +55,28 @@ function Main() {
         <div className="cards">{specialsCards}</div>
       </section>
       <br/>
+      
+      <section className ="head">
+      <div className="left">
+      <h1>Little Lemon <br/> Chicago </h1>
+
+      <p>Lorem ipsum dolor sit amet consectetur. Sit leo vestibulum viverra lectus turpis pharetra pharetra. Ullamcorper pellentesque mauris libero suspendisse quisque rhoncus sit. <br/>Accumsan tincidunt nunc aliquet orci commodo arcu eget metus. Dictumst suscipit ut enim quam dignissim facilisis in diam enim.</p>
+
+        
+      </div>
+      <div className="right">
+        
+        <img
+          src={about}
+          alt="our cook holding a tablet with delicoues baguettes"
+        /> 
+      </div>
+      </section>
+      
+
 
     </main>
+    
 
     
   );

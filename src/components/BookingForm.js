@@ -114,7 +114,7 @@ const BookingForm = ({ navigate }) => {
             name="message"
             id="message"
             cols="30"
-            rows="10"
+            rows="12"
           ></textarea>
         </label>
       </div>
